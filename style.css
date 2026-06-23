@@ -1,0 +1,22 @@
+body{
+    background:#FFF8EF;
+    font-family:Georgia, serif;
+    text-align:center;
+    color:#6B1E3B;
+}
+
+h1{
+    color:#A0004D;
+}
+
+h2{
+    color:#B8860B;
+}
+
+p{
+    font-size:20px;
+}
+
+hr{
+    width:70%;
+}
