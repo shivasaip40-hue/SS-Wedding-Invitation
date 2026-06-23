@@ -1,45 +1,25 @@
 body{
-    background:#FFF8EF;
-    font-family:Georgia, serif;
-    text-align:center;
-    color:#6B1E3B;
+    background: linear-gradient(to bottom, #fff8ef, #ffe6f2);
+    font-family: Georgia, serif;
+    text-align: center;
+    color: #6B1E3B;
+    margin: 40px;
 }
 
 h1{
-    color:#A0004D;
+    color: #A0004D;
+    font-size: 55px;
 }
 
 h2{
-    color:#B8860B;
+    color: #B8860B;
 }
 
 p{
-    font-size:20px;
+    font-size: 22px;
 }
 
 hr{
-    width:70%;
-}
-h1{
-    color:#A0004D;
-}
-
-h2{
-    color:#B8860B;
-}
-
-p{
-    font-size:20px;
-}
-
-hr{
-    width:70%;
-}
-
-body{
-    background:#FFF8EF;
-    font-family:Georgia, serif;
-    text-align:center;
-    color:#6B1E3B;
-    margin:40px;
+    width: 70%;
+    border: 1px solid gold;
 }
