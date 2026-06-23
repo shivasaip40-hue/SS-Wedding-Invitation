@@ -47,3 +47,19 @@ h1{
 body{
     box-shadow: 0px 0px 25px gold;
 }
+h1{
+    font-size: 70px;
+    color: #8B004B;
+    text-shadow:
+        0 0 5px gold,
+        0 0 15px gold,
+        0 0 30px gold;
+    border: 6px solid gold;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    line-height: 180px;
+    margin: auto;
+    background: radial-gradient(circle, #fff7cc, #d4af37);
+    box-shadow: 0 0 30px gold;
+}
