@@ -23,3 +23,8 @@ hr{
     width: 70%;
     border: 1px solid gold;
 }
+body{
+    border: 10px solid gold;
+    border-radius: 25px;
+    padding: 20px;
+}
