@@ -28,3 +28,15 @@ body{
     border-radius: 25px;
     padding: 20px;
 }
+body{
+    background:
+    radial-gradient(circle at top left, rgba(255,192,203,0.3), transparent 20%),
+    radial-gradient(circle at top right, rgba(255,182,193,0.3), transparent 20%),
+    radial-gradient(circle at bottom left, rgba(255,192,203,0.3), transparent 20%),
+    radial-gradient(circle at bottom right, rgba(255,182,193,0.3), transparent 20%),
+    linear-gradient(to bottom, #fff8ef, #ffe6f2);
+
+    border: 10px solid gold;
+    border-radius: 25px;
+    padding: 20px;
+}
