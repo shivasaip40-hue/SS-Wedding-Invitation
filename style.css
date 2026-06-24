@@ -115,9 +115,11 @@ body{
 }
 
 .petal{
-    position:absolute;
-    font-size:25px;
+    position:fixed;
+    top:0;
+    font-size:50px;
     animation:fall linear infinite;
+    z-index:9999;
 }
 
 @keyframes fall{
