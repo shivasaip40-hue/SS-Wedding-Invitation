@@ -78,3 +78,11 @@ body{
         transform:scale(1);
     }
 }
+.seal{
+    cursor:pointer;
+    transition:0.5s;
+}
+
+.seal:hover{
+    transform:scale(1.1) rotate(10deg);
+}
