@@ -65,7 +65,12 @@ body{
 }
 #invitation{
     display:none;
-    animation: fadeIn 2s ease;
+    background:white;
+    margin-top:30px;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 30px rgba(0,0,0,0.2);
+    animation: openCard 1.5s ease;
 }
 
 @keyframes fadeIn{
@@ -85,4 +90,17 @@ body{
 
 .seal:hover{
     transform:scale(1.1) rotate(10deg);
+}
+@keyframes openCard{
+
+    from{
+        opacity:0;
+        transform:rotateX(-90deg);
+    }
+
+    to{
+        opacity:1;
+        transform:rotateX(0deg);
+    }
+
 }
