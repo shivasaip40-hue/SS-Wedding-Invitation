@@ -1,5 +1,3 @@
-alert("Script is working!");
-
 document.addEventListener("DOMContentLoaded", function(){
 
     const seal = document.querySelector(".seal");
