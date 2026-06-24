@@ -20,6 +20,8 @@ for(let i=0;i<20;i++){
     petal.className="petal";
 
     petal.innerHTML="🌸";
+    petal.style.fontSize="50px";
+    petal.style.top="0px";
 
     petal.style.left=Math.random()*100+"%";
 
