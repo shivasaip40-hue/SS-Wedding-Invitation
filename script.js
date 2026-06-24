@@ -14,16 +14,20 @@ document.addEventListener("DOMContentLoaded", function(){
 
     });
 
+  for(let i=0; i<20; i++){
+
     let petal = document.createElement("div");
 
     petal.innerHTML = "🌸";
 
-    petal.style.position = "fixed";
-    petal.style.top = "100px";
-    petal.style.left = "100px";
-    petal.style.fontSize = "60px";
-    petal.style.zIndex = "9999";
+    petal.className = "petal";
+
+    petal.style.left = Math.random() * 100 + "%";
+
+    petal.style.animationDuration =
+        (4 + Math.random() * 4) + "s";
 
     document.body.appendChild(petal);
+}
 
 });
