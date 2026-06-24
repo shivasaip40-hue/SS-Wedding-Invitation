@@ -1,4 +1,5 @@
 alert("Script is working!");
+
 document.addEventListener("DOMContentLoaded", function(){
 
     const seal = document.querySelector(".seal");
@@ -13,21 +14,16 @@ document.addEventListener("DOMContentLoaded", function(){
 
     });
 
-});
-for(let i=0;i<20;i++){
+    let petal = document.createElement("div");
 
-    let petal=document.createElement("div");
+    petal.innerHTML = "🌸";
 
-    petal.className="petal";
-
-    petal.innerHTML="🌸";
-    petal.style.fontSize="50px";
-    petal.style.top="0px";
-
-    petal.style.left=Math.random()*100+"%";
-
-    petal.style.animationDuration=
-        (5+Math.random()*5)+"s";
+    petal.style.position = "fixed";
+    petal.style.top = "100px";
+    petal.style.left = "100px";
+    petal.style.fontSize = "60px";
+    petal.style.zIndex = "9999";
 
     document.body.appendChild(petal);
-}
+
+});
